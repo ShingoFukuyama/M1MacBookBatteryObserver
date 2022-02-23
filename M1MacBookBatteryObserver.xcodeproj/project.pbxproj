@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281BDFD827C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFD727C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift */; };
+		281BDFDA27C6964E00EAB792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFD927C6964E00EAB792 /* ContentView.swift */; };
+		281BDFDC27C6964E00EAB792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281BDFDB27C6964E00EAB792 /* Assets.xcassets */; };
+		281BDFDF27C6964E00EAB792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */; };
+		281BDFEA27C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */; };
+		281BDFF427C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */; };
+		281BDFF627C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281BDFE627C6964F00EAB792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281BDFCC27C6964E00EAB792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281BDFD327C6964E00EAB792;
+			remoteInfo = M1MacBookBatteryObserver;
+		};
+		281BDFF027C6964F00EAB792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281BDFCC27C6964E00EAB792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281BDFD327C6964E00EAB792;
+			remoteInfo = M1MacBookBatteryObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M1MacBookBatteryObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BDFD727C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverApp.swift; sourceTree = "<group>"; };
+		281BDFD927C6964E00EAB792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		281BDFDB27C6964E00EAB792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		281BDFE027C6964E00EAB792 /* M1MacBookBatteryObserver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M1MacBookBatteryObserver.entitlements; sourceTree = "<group>"; };
+		281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1MacBookBatteryObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverTests.swift; sourceTree = "<group>"; };
+		281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1MacBookBatteryObserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverUITests.swift; sourceTree = "<group>"; };
+		281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281BDFD127C6964E00EAB792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFE227C6964E00EAB792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFEC27C6964F00EAB792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281BDFCB27C6964E00EAB792 = {
+			isa = PBXGroup;
+			children = (
+				281BDFD627C6964E00EAB792 /* M1MacBookBatteryObserver */,
+				281BDFE827C6964F00EAB792 /* M1MacBookBatteryObserverTests */,
+				281BDFF227C6964F00EAB792 /* M1MacBookBatteryObserverUITests */,
+				281BDFD527C6964E00EAB792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281BDFD527C6964E00EAB792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */,
+				281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */,
+				281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281BDFD627C6964E00EAB792 /* M1MacBookBatteryObserver */ = {
+			isa = PBXGroup;
+			children = (
+				281BDFD727C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift */,
+				281BDFD927C6964E00EAB792 /* ContentView.swift */,
+				281BDFDB27C6964E00EAB792 /* Assets.xcassets */,
+				281BDFE027C6964E00EAB792 /* M1MacBookBatteryObserver.entitlements */,
+				281BDFDD27C6964E00EAB792 /* Preview Content */,
+			);
+			path = M1MacBookBatteryObserver;
+			sourceTree = "<group>";
+		};
+		281BDFDD27C6964E00EAB792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		281BDFE827C6964F00EAB792 /* M1MacBookBatteryObserverTests */ = {
+			isa = PBXGroup;
+			children = (
+				281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */,
+			);
+			path = M1MacBookBatteryObserverTests;
+			sourceTree = "<group>";
+		};
+		281BDFF227C6964F00EAB792 /* M1MacBookBatteryObserverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */,
+				281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */,
+			);
+			path = M1MacBookBatteryObserverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BDFF927C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserver" */;
+			buildPhases = (
+				281BDFD027C6964E00EAB792 /* Sources */,
+				281BDFD127C6964E00EAB792 /* Frameworks */,
+				281BDFD227C6964E00EAB792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M1MacBookBatteryObserver;
+			productName = M1MacBookBatteryObserver;
+			productReference = 281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281BDFE427C6964E00EAB792 /* M1MacBookBatteryObserverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BDFFC27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverTests" */;
+			buildPhases = (
+				281BDFE127C6964E00EAB792 /* Sources */,
+				281BDFE227C6964E00EAB792 /* Frameworks */,
+				281BDFE327C6964E00EAB792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281BDFE727C6964F00EAB792 /* PBXTargetDependency */,
+			);
+			name = M1MacBookBatteryObserverTests;
+			productName = M1MacBookBatteryObserverTests;
+			productReference = 281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281BDFEE27C6964F00EAB792 /* M1MacBookBatteryObserverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BDFFF27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverUITests" */;
+			buildPhases = (
+				281BDFEB27C6964F00EAB792 /* Sources */,
+				281BDFEC27C6964F00EAB792 /* Frameworks */,
+				281BDFED27C6964F00EAB792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281BDFF127C6964F00EAB792 /* PBXTargetDependency */,
+			);
+			name = M1MacBookBatteryObserverUITests;
+			productName = M1MacBookBatteryObserverUITests;
+			productReference = 281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281BDFCC27C6964E00EAB792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					281BDFD327C6964E00EAB792 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					281BDFE427C6964E00EAB792 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 281BDFD327C6964E00EAB792;
+					};
+					281BDFEE27C6964F00EAB792 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 281BDFD327C6964E00EAB792;
+					};
+				};
+			};
+			buildConfigurationList = 281BDFCF27C6964E00EAB792 /* Build configuration list for PBXProject "M1MacBookBatteryObserver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281BDFCB27C6964E00EAB792;
+			productRefGroup = 281BDFD527C6964E00EAB792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */,
+				281BDFE427C6964E00EAB792 /* M1MacBookBatteryObserverTests */,
+				281BDFEE27C6964F00EAB792 /* M1MacBookBatteryObserverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281BDFD227C6964E00EAB792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BDFDF27C6964E00EAB792 /* Preview Assets.xcassets in Resources */,
+				281BDFDC27C6964E00EAB792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFE327C6964E00EAB792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFED27C6964F00EAB792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281BDFD027C6964E00EAB792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BDFDA27C6964E00EAB792 /* ContentView.swift in Sources */,
+				281BDFD827C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFE127C6964E00EAB792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BDFEA27C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BDFEB27C6964F00EAB792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BDFF427C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift in Sources */,
+				281BDFF627C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281BDFE727C6964F00EAB792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */;
+			targetProxy = 281BDFE627C6964F00EAB792 /* PBXContainerItemProxy */;
+		};
+		281BDFF127C6964F00EAB792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */;
+			targetProxy = 281BDFF027C6964F00EAB792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		281BDFF727C6964F00EAB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		281BDFF827C6964F00EAB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		281BDFFA27C6964F00EAB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = M1MacBookBatteryObserver/M1MacBookBatteryObserver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"M1MacBookBatteryObserver/Preview Content\"";
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		281BDFFB27C6964F00EAB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = M1MacBookBatteryObserver/M1MacBookBatteryObserver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"M1MacBookBatteryObserver/Preview Content\"";
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		281BDFFD27C6964F00EAB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1MacBookBatteryObserver.app/Contents/MacOS/M1MacBookBatteryObserver";
+			};
+			name = Debug;
+		};
+		281BDFFE27C6964F00EAB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1MacBookBatteryObserver.app/Contents/MacOS/M1MacBookBatteryObserver";
+			};
+			name = Release;
+		};
+		281BE00027C6964F00EAB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = M1MacBookBatteryObserver;
+			};
+			name = Debug;
+		};
+		281BE00127C6964F00EAB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = M1MacBookBatteryObserver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281BDFCF27C6964E00EAB792 /* Build configuration list for PBXProject "M1MacBookBatteryObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BDFF727C6964F00EAB792 /* Debug */,
+				281BDFF827C6964F00EAB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281BDFF927C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BDFFA27C6964F00EAB792 /* Debug */,
+				281BDFFB27C6964F00EAB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281BDFFC27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BDFFD27C6964F00EAB792 /* Debug */,
+				281BDFFE27C6964F00EAB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281BDFFF27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BE00027C6964F00EAB792 /* Debug */,
+				281BE00127C6964F00EAB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281BDFCC27C6964E00EAB792 /* Project object */;
+}
