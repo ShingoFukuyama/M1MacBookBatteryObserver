@@ -12,6 +12,15 @@ struct M1MacBookBatteryObserverApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .padding()
+                .frame(
+                    minWidth: 500,
+                    idealWidth: 600,
+                    maxWidth: 700,
+                    minHeight: 300,
+                    idealHeight: 400,
+                    maxHeight: 500,
+                    alignment: .center)
         }
     }
 }

@@ -11,27 +11,9 @@
 		281BDFDA27C6964E00EAB792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFD927C6964E00EAB792 /* ContentView.swift */; };
 		281BDFDC27C6964E00EAB792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281BDFDB27C6964E00EAB792 /* Assets.xcassets */; };
 		281BDFDF27C6964E00EAB792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */; };
-		281BDFEA27C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */; };
-		281BDFF427C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */; };
-		281BDFF627C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */; };
+		281BE00327C696F900EAB792 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BE00227C696F900EAB792 /* String+Extension.swift */; };
+		2859AC0727CA2BE300F00F11 /* BatteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859AC0627CA2BE300F00F11 /* BatteryModel.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		281BDFE627C6964F00EAB792 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 281BDFCC27C6964E00EAB792 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 281BDFD327C6964E00EAB792;
-			remoteInfo = M1MacBookBatteryObserver;
-		};
-		281BDFF027C6964F00EAB792 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 281BDFCC27C6964E00EAB792 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 281BDFD327C6964E00EAB792;
-			remoteInfo = M1MacBookBatteryObserver;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M1MacBookBatteryObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,29 +22,12 @@
 		281BDFDB27C6964E00EAB792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		281BDFE027C6964E00EAB792 /* M1MacBookBatteryObserver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M1MacBookBatteryObserver.entitlements; sourceTree = "<group>"; };
-		281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1MacBookBatteryObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverTests.swift; sourceTree = "<group>"; };
-		281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M1MacBookBatteryObserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverUITests.swift; sourceTree = "<group>"; };
-		281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1MacBookBatteryObserverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		281BE00227C696F900EAB792 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2859AC0627CA2BE300F00F11 /* BatteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		281BDFD127C6964E00EAB792 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		281BDFE227C6964E00EAB792 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		281BDFEC27C6964F00EAB792 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				281BDFD627C6964E00EAB792 /* M1MacBookBatteryObserver */,
-				281BDFE827C6964F00EAB792 /* M1MacBookBatteryObserverTests */,
-				281BDFF227C6964F00EAB792 /* M1MacBookBatteryObserverUITests */,
 				281BDFD527C6964E00EAB792 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */,
-				281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */,
-				281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +58,8 @@
 			children = (
 				281BDFD727C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift */,
 				281BDFD927C6964E00EAB792 /* ContentView.swift */,
+				2859AC0627CA2BE300F00F11 /* BatteryModel.swift */,
+				281BE00227C696F900EAB792 /* String+Extension.swift */,
 				281BDFDB27C6964E00EAB792 /* Assets.xcassets */,
 				281BDFE027C6964E00EAB792 /* M1MacBookBatteryObserver.entitlements */,
 				281BDFDD27C6964E00EAB792 /* Preview Content */,
@@ -110,23 +73,6 @@
 				281BDFDE27C6964E00EAB792 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		281BDFE827C6964F00EAB792 /* M1MacBookBatteryObserverTests */ = {
-			isa = PBXGroup;
-			children = (
-				281BDFE927C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift */,
-			);
-			path = M1MacBookBatteryObserverTests;
-			sourceTree = "<group>";
-		};
-		281BDFF227C6964F00EAB792 /* M1MacBookBatteryObserverUITests */ = {
-			isa = PBXGroup;
-			children = (
-				281BDFF327C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift */,
-				281BDFF527C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift */,
-			);
-			path = M1MacBookBatteryObserverUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,42 +95,6 @@
 			productReference = 281BDFD427C6964E00EAB792 /* M1MacBookBatteryObserver.app */;
 			productType = "com.apple.product-type.application";
 		};
-		281BDFE427C6964E00EAB792 /* M1MacBookBatteryObserverTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 281BDFFC27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverTests" */;
-			buildPhases = (
-				281BDFE127C6964E00EAB792 /* Sources */,
-				281BDFE227C6964E00EAB792 /* Frameworks */,
-				281BDFE327C6964E00EAB792 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				281BDFE727C6964F00EAB792 /* PBXTargetDependency */,
-			);
-			name = M1MacBookBatteryObserverTests;
-			productName = M1MacBookBatteryObserverTests;
-			productReference = 281BDFE527C6964F00EAB792 /* M1MacBookBatteryObserverTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		281BDFEE27C6964F00EAB792 /* M1MacBookBatteryObserverUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 281BDFFF27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverUITests" */;
-			buildPhases = (
-				281BDFEB27C6964F00EAB792 /* Sources */,
-				281BDFEC27C6964F00EAB792 /* Frameworks */,
-				281BDFED27C6964F00EAB792 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				281BDFF127C6964F00EAB792 /* PBXTargetDependency */,
-			);
-			name = M1MacBookBatteryObserverUITests;
-			productName = M1MacBookBatteryObserverUITests;
-			productReference = 281BDFEF27C6964F00EAB792 /* M1MacBookBatteryObserverUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +107,6 @@
 				TargetAttributes = {
 					281BDFD327C6964E00EAB792 = {
 						CreatedOnToolsVersion = 13.3;
-					};
-					281BDFE427C6964E00EAB792 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 281BDFD327C6964E00EAB792;
-					};
-					281BDFEE27C6964F00EAB792 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 281BDFD327C6964E00EAB792;
 					};
 				};
 			};
@@ -222,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */,
-				281BDFE427C6964E00EAB792 /* M1MacBookBatteryObserverTests */,
-				281BDFEE27C6964F00EAB792 /* M1MacBookBatteryObserverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +138,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281BDFE327C6964E00EAB792 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		281BDFED27C6964F00EAB792 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,41 +146,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				281BDFDA27C6964E00EAB792 /* ContentView.swift in Sources */,
+				2859AC0727CA2BE300F00F11 /* BatteryModel.swift in Sources */,
+				281BE00327C696F900EAB792 /* String+Extension.swift in Sources */,
 				281BDFD827C6964E00EAB792 /* M1MacBookBatteryObserverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281BDFE127C6964E00EAB792 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281BDFEA27C6964F00EAB792 /* M1MacBookBatteryObserverTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		281BDFEB27C6964F00EAB792 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281BDFF427C6964F00EAB792 /* M1MacBookBatteryObserverUITests.swift in Sources */,
-				281BDFF627C6964F00EAB792 /* M1MacBookBatteryObserverUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		281BDFE727C6964F00EAB792 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */;
-			targetProxy = 281BDFE627C6964F00EAB792 /* PBXContainerItemProxy */;
-		};
-		281BDFF127C6964F00EAB792 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 281BDFD327C6964E00EAB792 /* M1MacBookBatteryObserver */;
-			targetProxy = 281BDFF027C6964F00EAB792 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		281BDFF727C6964F00EAB792 /* Debug */ = {
@@ -420,7 +278,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"M1MacBookBatteryObserver/Preview Content\"";
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +288,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.M1MacBookBatteryObserver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,7 +305,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"M1MacBookBatteryObserver/Preview Content\"";
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,82 +315,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.M1MacBookBatteryObserver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		281BDFFD27C6964F00EAB792 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1MacBookBatteryObserver.app/Contents/MacOS/M1MacBookBatteryObserver";
-			};
-			name = Debug;
-		};
-		281BDFFE27C6964F00EAB792 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M1MacBookBatteryObserver.app/Contents/MacOS/M1MacBookBatteryObserver";
-			};
-			name = Release;
-		};
-		281BE00027C6964F00EAB792 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = M1MacBookBatteryObserver;
-			};
-			name = Debug;
-		};
-		281BE00127C6964F00EAB792 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3SN7K5RJR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.test2.M1MacBookBatteryObserverUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = M1MacBookBatteryObserver;
 			};
 			name = Release;
 		};
@@ -553,24 +339,6 @@
 			buildConfigurations = (
 				281BDFFA27C6964F00EAB792 /* Debug */,
 				281BDFFB27C6964F00EAB792 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		281BDFFC27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				281BDFFD27C6964F00EAB792 /* Debug */,
-				281BDFFE27C6964F00EAB792 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		281BDFFF27C6964F00EAB792 /* Build configuration list for PBXNativeTarget "M1MacBookBatteryObserverUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				281BE00027C6964F00EAB792 /* Debug */,
-				281BE00127C6964F00EAB792 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
